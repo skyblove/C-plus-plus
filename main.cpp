@@ -2,9 +2,6 @@
 //  main.cpp
 //  chapter 3
 //
-//  Created by Bo Tao on 12/4/20.
-//  Copyright © 2020 Bo Tao. All rights reserved.
-//
 
 #include <iostream>
 # include<vector>
