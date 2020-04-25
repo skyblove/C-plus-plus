@@ -27,6 +27,8 @@ int main()
     for(auto it=vInt.cbegin();it!=vInt.cend()-1;it++)
         {
         cout<<(*it+*(++it))<<" ";
+        //cout<<*it<<" "<<endl; 这个是可以的， 因为没有对指针进行改动
+        //cout<<*(++it)<<" "<<endl;这个可能会不行，xcode 上不行，window上可以
         if((it-vInt.cbegin()+1)%10==0)
             cout<<endl;
         }
