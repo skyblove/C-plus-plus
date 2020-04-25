@@ -2,9 +2,6 @@
 //  main.cpp
 //  chater324
 //
-//  Created by Bo Tao on 25/4/20.
-//  Copyright © 2020 Bo Tao. All rights reserved.
-//
 
 #include <iostream>
 # include<vector>
