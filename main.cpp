@@ -34,5 +34,25 @@ int main()
         }
     if(vInt.size()%2!=0)
         cout<<*(vInt.cend()-1);
+   //首尾之和
+    for(auto it=vInt.cbegin();it!=vInt.cend();it++)
+    {
+    cout<<*it<< " ";
+    }
+     cout<<endl;
+    cout<<"the top and end number sum is :"<<endl;
+    auto beg=vInt.cbegin();
+    cout<<"the begin is :"<<*(beg)<<endl;
+    auto end=vInt.cend();
+    cout<<"the end is :"<<*(end)<<endl;
+
+    for(auto it=beg;it!=(beg +(end-beg)/2);it++)
+        {
+        cout<<(*it+*(beg+(end-it)+1))<<" "<<endl;
+        if((it-beg+1)%10==0)
+            cout<<endl;
+        }
+    if(vInt.size()%2!=0)
+        cout<<*((beg +(end-beg)/2))<<endl;
     return 0;
 }
