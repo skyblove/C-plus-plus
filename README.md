@@ -1,3 +1,2 @@
 # C-plus-plus
-C++ prime
-step by step
+Chapter 3-36
